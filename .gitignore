@@ -1,0 +1,76 @@
+# Java相关
+*.class
+*.jar
+*.war
+*.ear
+
+# Log文件
+*.log
+
+# 包文件
+*.jar
+*.war
+*.ear
+
+# 忽略生成的文件
+*.iml
+*.ipr
+*.iws
+*.project
+*.classpath
+*.settings/
+
+# maven忽略
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# gradle忽略
+.gradle/
+build/
+
+# 工作目录文件
+.idea/
+*.swp
+*.swo
+*.DS_Store
+*.sublime-workspace
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+
+# 本地环境配置文件
+.env
+.env.*
+
+# 忽略spring boot特有的文件
+spring.log
+
+# 忽略静态资源编译生成的文件
+node_modules/
+dist/
+bower_components/
+
+# 忽略打包生成的文件
+*.zip
+*.tar.gz
+
+# 忽略测试报告和覆盖率文件
+/test-output
+/coverage
+
+# 忽略临时文件
+*.tmp
+*.bak
+*.old
+*.orig
+
+# 忽略IDEA的运行配置文件
+*.run.xml
+
+# 忽略集成开发工具相关的文件
+.vscode/
